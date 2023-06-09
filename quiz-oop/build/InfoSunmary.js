@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Vechile_1 = require("./Vechile");
+const vechile1 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile2 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile3 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile4 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile5 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile6 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile7 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile8 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
+const vechile9 = new Vechile_1.Vechile("D 1001 UM", "SUV", 4, 2010, 350000000, 3500000);
