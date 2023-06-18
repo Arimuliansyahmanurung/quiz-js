@@ -1,0 +1,29 @@
+{
+  "name": "Tugas-Expressjs2",
+  "version": "1.0.0",
+  "description": "Belajar-Express",
+  "main": "index.js",
+  "author": "Ari Muliansyah Manurung",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.js",
+    "db": "sequelize-auto -h localhost -d goshopping -u postgres -x -p 5432  -o ./app/model -l esm -e postgres "
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/sequelize": "^4.28.15",
+    "chalk": "^5.2.0",
+    "nodemon": "^2.0.22",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1",
+    "sequelize-auto": "^0.8.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.0"
+  }
+}
